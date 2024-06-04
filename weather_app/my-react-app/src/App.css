@@ -1,0 +1,107 @@
+:root {
+    --background-color: #1a1a1a;
+    --font-default-color: #000;
+    --component-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color) !important;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: 'Jost';
+}
+
+.element-search {
+    margin: 5% 0;
+    padding: 1%;
+    width: 100% !important;
+    background-color: var(--component-color) !important;
+}
+
+.element-search-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--component-color);
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+
+}
+
+.element-search-container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.elemant-search {
+    font-family: 'Jost' !important;
+    font-size: 12px;
+}
+
+.search-btn {
+    padding: 10px 20px;
+    background-color: var(--background-color) !important;
+
+}
+
+.weather-display {
+    font-size: 2rem;
+    font-family: Sacramento;
+    font-weight: bold;
+    margin: 2% 0 0 0;
+}
+
+.weather-img {
+    width: 100%;
+    font-weight: bold;
+}
+
+.error-message {
+    font-weight: regular;
+    font-family: 'Jost';
+}
+
+.element-information {
+    padding: 20px 40px;
+    margin: 20px 10px;
+}
+
+.element-information p {
+    font-size: 0.8rem;
+    font-weight: 800;
+    padding: 10px 0;
+}
+
+.element-information h4 {
+    padding: 10px 0;
+}
+
+.element-information h1 {
+    font-size: 3rem;
+    padding: 20% 0;
+}
+
+.element-information h3 {
+    padding: 10px 0;
+}
